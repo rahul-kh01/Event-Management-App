@@ -1,0 +1,141 @@
+.home-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.search-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 500px;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slide {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slide-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slide-content {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 250px;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.slide-title {
+  color: #ff5733;
+  font-size: 24px;
+}
+
+.slide-main-title {
+  color: #000;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.slide-price {
+  color: #808080;
+  font-size: 24px;
+}
+
+.shop-now {
+  background-color: #ff5733;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.shop-now:hover {
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  .slide-content {
+    left: 70px;
+    max-width: 350px;
+    background: transparent;
+    padding: 0;
+  }
+
+  .slide-title {
+    font-size: 28px;
+  }
+
+  .slide-main-title {
+    font-size: 30px;
+  }
+
+  .slide-price strong {
+    font-size: 24px;
+  }
+
+  .shop-now {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slide-main-title {
+    font-size: 44px;
+  }
+
+  .slide-price strong {
+    font-size: 30px;
+  }
+}
+
+.add-event-btn {
+  background-color: #ff5733;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.register-attendee-btn {
+  background-color: #ff5733;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 8px;
+}

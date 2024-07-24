@@ -1,0 +1,119 @@
+/* General styles for the navbar */
+.navbar-container {
+  background-color: #333;
+  padding: 10px 20px;
+  display: block;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-item:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 10px;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+  }
+
+  .navbar-item {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+  }
+}
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    display: none; /* Hide the desktop navbar on small screens */
+  }
+}
+/*Mobile Navbar styles*/
+
+.mob-navbar {
+  display: none; /* Initially hide the mobile navbar */
+}
+
+.mob-navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.mob-navbar-item {
+  color: #333;
+  font-size: 24px;
+}
+
+.mob-navbar-item:hover {
+  color: #007bff;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .mob-navbar {
+    display: block; /* Show the mobile navbar on small screens */
+  }
+}
+
+/*Menu styles*/
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 50%;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.menu-item {
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: red;
+  padding: 10px;
+  width: 300px;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #007bff;
+}

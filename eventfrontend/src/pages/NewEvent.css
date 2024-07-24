@@ -1,0 +1,66 @@
+/* Container for the whole NewEvent component */
+.new-event-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Title styling */
+.new-event-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Flexbox container for event cards */
+.event-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Style for individual event cards */
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Style for images inside event cards */
+.event-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style for the information section inside event cards */
+.event-info {
+  padding: 16px;
+}
+
+.event-info h3 {
+  margin: 8px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.event-info p {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.event-rating {
+  margin: 8px 0;
+}
+
+.event-price {
+  font-size: 1.1em;
+  color: #333;
+  font-weight: bold;
+}
