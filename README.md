@@ -89,7 +89,7 @@ The Event Management System is a comprehensive application developed with React 
 - Use the form to add new events, view the list of events, update event details, delete events, and register attendees.
 
 ## Contact
-For any questions or inquiries, please contact (dynamicrahul952156gmail.com).
+For any questions or inquiries, please contact (dynamicrahul@952156gmail.com).
 
 ---
 
