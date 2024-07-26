@@ -1,34 +1,35 @@
+
 # Event Management System
 
 ## Overview
-This application is an Event Management System built using React for the frontend and Spring Boot for the backend. The database used is MySQL. The application allows users to manage events by adding, updating, deleting, and viewing event details. Additionally, users can register attendees to events.
+The Event Management System is a comprehensive application developed with React for the frontend and Spring Boot for the backend, using MySQL as the database. This system enables users to efficiently manage events through features such as adding, updating, deleting, and viewing event details. Additionally, users can register attendees for events.
 
 ## Features
 ### Backend
 - **Database:** MySQL
 - **API Endpoints:**
-  - Fetch all events
-  - Add a new event
-  - Update event details
-  - Delete an event by its ID
-  - Register an attendee to an event
+  - Retrieve all events
+  - Create a new event
+  - Modify event details
+  - Remove an event by its ID
+  - Register an attendee for an event
 
 ### Frontend
 - **Components:**
-  - Form component for inputting event details (event name, description, date, location)
+  - Form component for entering event details (event name, description, date, location)
   - List component to display all events
-  - Detail view for each event, displaying all information and a list of attendees
+  - Detail view for each event, including all information and a list of attendees
 - **Functionalities:**
-  - Fetch and display the list of events from the backend when the page loads
-  - Add a new event through the form
-  - Update event details using an edit button
-  - Delete an event by its ID using a delete button
-  - Register an attendee to an event
+  - Load and display events from the backend on page load
+  - Add new events using the form
+  - Edit event details via an edit button
+  - Remove events by ID using a delete button
+  - Register attendees for events
 
 ### UI/UX and Styling
-- User-friendly interface
-- Custom styles written in CSS/SCSS
-- Responsive design across different device sizes
+- Intuitive user interface
+- Custom styles implemented with CSS/SCSS
+- Responsive design for various device sizes
 
 ## Prerequisites
 - React.js
@@ -39,7 +40,7 @@ This application is an Event Management System built using React for the fronten
 ## Installation and Setup
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/SithuminiNimthara/Event-Management-Application.git
+    git clone https://github.com/rahul_kh01/Event-Management-App.git
     cd eventmanagementsystem
     ```
 
@@ -84,9 +85,12 @@ This application is an Event Management System built using React for the fronten
       ```
 
 ## Usage
-- Open your browser and navigate to `http://localhost:3000` to access the frontend application.
+- Open your browser and go to `http://localhost:3000` to access the frontend application.
 - Use the form to add new events, view the list of events, update event details, delete events, and register attendees.
 
 ## Contact
-For any questions or inquiries, please contact (sithumininimthara@gmail.com).
+For any questions or inquiries, please contact (dynamicrahul952156gmail.com).
 
+---
+
+Feel free to adjust any details as needed!
